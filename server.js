@@ -10,10 +10,11 @@ var VERSION = "N/A";
 
 // Cheesy...
 try {
-    var json = JSON.parse(fs.readFileSync('package.json', 'utf8'));
+    var json = JSON.parse(fs.readFileSync(__dirname + '/package.json', 'utf8'));
     MODULE = json.name;
     VERSION = json.version;
 } catch (e) {
+    console.log("Could not read the package definition", e);
 }
 
 var logger = require('just-logging').getLogger(MODULE);

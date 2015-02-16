@@ -34,6 +34,10 @@ Map a path to a function, to serve dynamic content:
         }
     });
 
+Start listeneing
+
+    server.listen(8080);
+
 Contribute
 ----------
 

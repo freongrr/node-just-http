@@ -2,7 +2,7 @@
     "author": "Fabien Cortina <fabien.cortina@gmail.com>",
     "name": "just-http",
     "description": "Extremely simple http server",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "homepage": "https://github.com/freongrr/node-just-http",
     "repository": {
         "url": "https://github.com/freongrr/node-just-http.git"

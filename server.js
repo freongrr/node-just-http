@@ -37,6 +37,7 @@ HttpServer.prototype.map = function (from, to) {
 };
 
 HttpServer.prototype.listen = function (port, host) {
+    logger.info("Listening on port " + port);
     this.server.listen(port, host);
 }
 
